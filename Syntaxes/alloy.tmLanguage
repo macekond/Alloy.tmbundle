@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>src</string>
+	</array>
+	<key>name</key>
+	<string>text.alloy</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\b(else)\b</string>
+			<key>name</key>
+			<string>keyword.control.alloy</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(implies|or|and|let)\b</string>
+			<key>name</key>
+			<string>keyword.operator.alloy</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(fact|abstract|sig|extends|some|one|lone|set|all|no|none|open|module|not|in|pred|assert|for|but exactly|check|disj)\b</string>
+			<key>name</key>
+			<string>keyword.other.alloy</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\/\/.*</string>
+			<key>name</key>
+			<string>comment.line.double-slash.alloy</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\/\*(.)*\*\/|\s\*\s(.)*\n|\*/|\/\*(.)*</string>
+			<key>name</key>
+			<string>comment.block.empty.alloy</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(fact|sig|module|pred|fun|enum)\b</string>
+			<key>name</key>
+			<string>storage.type.alloy</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>pred \w*\[(.)*]{</string>
+			<key>end</key>
+			<string>}</string>
+			<key>name</key>
+			<string>entity.name.function.predicate.alloy</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>$self</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.alloy</string>
+	<key>uuid</key>
+	<string>4E96158C-0507-4FFC-87D7-76A2E89DE7FB</string>
+</dict>
+</plist>

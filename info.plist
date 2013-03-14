@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>baqen.znprx@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Ondrej Macek</string>
+	<key>description</key>
+	<string>New shiny bundle for Alloy.</string>
+	<key>name</key>
+	<string>Alloy</string>
+	<key>uuid</key>
+	<string>6EC1755D-A56E-4163-848E-983C1D12DAAF</string>
+</dict>
+</plist>
