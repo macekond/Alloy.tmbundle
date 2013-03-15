@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>contactEmailRot13</key>
-	<string>baqen.znprx@tznvy.pbz</string>
+	<string>baqen.znprx tznvy.pbz</string>
 	<key>contactName</key>
 	<string>Ondrej Macek</string>
 	<key>description</key>
-	<string>New shiny bundle for Alloy.</string>
+	<string>This bundle provides syntax highlighting, folding and indent for Alloy (http://alloy.mit.edu/)</string>
 	<key>name</key>
 	<string>Alloy</string>
 	<key>uuid</key>

@@ -9,7 +9,7 @@
 	<key>settings</key>
 	<dict>
 		<key>decreaseIndentPattern</key>
-		<string>}|^\n\n</string>
+		<string>^\n(})?|^\s*(})?\n</string>
 		<key>increaseIndentPattern</key>
 		<string>{|\||implies</string>
 	</dict>
