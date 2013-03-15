@@ -9,9 +9,9 @@
 	<key>settings</key>
 	<dict>
 		<key>decreaseIndentPattern</key>
-		<string>^\n(})?|^\s*(})?\n</string>
+		<string>^(.*\*/)?\s*\}[;\s]*$|check|assert</string>
 		<key>increaseIndentPattern</key>
-		<string>{|\||implies</string>
+		<string>^.*(\{[^}"']*|\([^)"']*)$|implies|\|</string>
 	</dict>
 	<key>uuid</key>
 	<string>37CE8C8A-C3FF-41D2-8968-517EB5CA8E90</string>
