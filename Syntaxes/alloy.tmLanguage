@@ -12,19 +12,19 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(else)\b</string>
+			<string>\b(run|check)\b</string>
 			<key>name</key>
 			<string>keyword.control.alloy</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(implies|or|and|let)\b</string>
+			<string>\b(implies|or|and|let|else)\b</string>
 			<key>name</key>
 			<string>keyword.operator.alloy</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(fact|abstract|sig|extends|some|one|lone|set|all|no|none|open|module|not|in|pred|assert|for|but exactly|check|disj)\b</string>
+			<string>\b(fact|abstract|sig|extends|some|one|lone|set|all|no|none|open|module|not|in|pred|assert|for|but exactly|disj)\b</string>
 			<key>name</key>
 			<string>keyword.other.alloy</string>
 		</dict>
