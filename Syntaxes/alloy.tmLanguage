@@ -18,13 +18,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(implies|or|and|let|else)\b</string>
+			<string>\b(implies|or|and|not|'|;)\b</string>
 			<key>name</key>
 			<string>keyword.operator.alloy</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(fact|abstract|sig|extends|some|one|lone|set|all|no|none|open|module|not|in|pred|assert|for|but exactly|disj)\b</string>
+			<string>\b(abstract|after|all|always|and|as|assert|before|but|check|disj|else|eventually|exactly|extends|fact|for|fun|historically|iden|iff|implies|in|Int|let|lone|module|no|none|once|one|open|or|pred|releases|run|set|sig|since|some|steps|sum|triggered|univ|until|var)\b</string>
 			<key>name</key>
 			<string>keyword.other.alloy</string>
 		</dict>
